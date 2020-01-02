@@ -1,0 +1,47 @@
+.formText {
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.753)),  url("https://i.kinja-img.com/gawker-media/image/upload/s--f0swC2cf--/c_scale,f_auto,fl_progressive,q_80,w_800/y0t5l2htujdf2jxeam78.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.formText, h3, h4, h5 {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.formText, label {
+    color: white !important;
+}
+
+.formText, input {
+    color: white !important;
+}
+
+.fields {
+    color: white !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 890px) {
+    .fields {
+        display: block !important;
+    }
+}
+
+.fields, hr {
+    right: 20px;
+}

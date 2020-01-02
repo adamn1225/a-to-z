@@ -1,0 +1,45 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "env-cmd .env gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.8.2",
+    "bootstrap": "^4.4.1",
+    "gatsby": "^2.18.12",
+    "gatsby-background-image": "^0.9.12",
+    "gatsby-plugin-sass": "^2.1.26",
+    "gatsby-source-filesystem": "^2.1.43",
+    "gatsby-transformer-remark": "^2.6.45",
+    "material-ui": "^0.20.2",
+    "node-sass": "^4.13.0",
+    "react": "16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "16.12.0",
+    "react-gesture-gallery": "^1.1.0",
+    "react-gesture-responder": "^2.1.0",
+    "react-hamburger-menu": "^1.1.1",
+    "reactstrap": "^8.2.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1",
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

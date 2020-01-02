@@ -1,0 +1,76 @@
+// colors
+$main: #087CDB;
+
+//responsive
+$small-w: 375px;
+$large-w: 1200px;
+$small-h: 667px;
+$large-h: 812px;
+
+.header {
+    padding: .7rem 15rem 0rem;
+    background: white;
+    -webkit-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.3);
+
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+@media only screen and (max-width: $small-w) and (max-height: $small-h) {
+    .header {
+        padding: .7rem 1rem 0rem;
+        font-size: 1rem;
+        float: left;
+    }
+}
+
+.title {  
+    color:#087CDB;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: 10rem;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    word-wrap: none;
+    word-break: keep-all;
+    word-break: unset;
+}
+
+@media only screen and (max-width: $small-w) and (max-height: $small-h) {
+    .title {
+        font-size: 1.5rem;
+    }
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: $small-w) and (max-height: $small-h) {
+    .nav-item {
+        display: none;
+    }
+}
+
+.nav-item{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-right: 4.2rem;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: #666;
+}
+
+.active-nav-item {
+    color: $main;
+}

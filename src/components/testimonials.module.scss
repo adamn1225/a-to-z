@@ -1,0 +1,41 @@
+.reviews {
+    height: 35vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/bg-testimonial.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.reviews h1 {
+    font-size: 4vw 3vh;
+    color: white;
+}
+
+.reviews p {
+    color: white;
+    font-size: 2vw 3vh;
+    width: 60%;
+    max-width: 1225px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width:320px) {
+    .reviews p {
+        max-width: 200px;
+        font-size: 1.1rem;
+    } .reviews {
+        height: 65vh;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 414px) {
+    .reviews {
+        height: 45vh;
+    }
+}
