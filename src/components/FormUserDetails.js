@@ -3,7 +3,6 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
 import formStyles from './formUser.module.scss'
-import { white } from 'material-ui/styles/colors';
 
 export class FormUserDetails extends Component {
     continue = e => {

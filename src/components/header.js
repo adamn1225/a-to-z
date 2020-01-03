@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import { NavLink } from 'react-router-dom'
 
 import headerStyles from './header.module.scss'
 
