@@ -16,7 +16,7 @@
   "dependencies": {
     "@material-ui/core": "^4.8.2",
     "bootstrap": "^4.4.1",
-    "gatsby": "^2.18.12",
+    "gatsby": "^2.18.17",
     "gatsby-background-image": "^0.9.12",
     "gatsby-plugin-sass": "^2.1.26",
     "gatsby-source-filesystem": "^2.1.43",
@@ -40,15 +40,12 @@
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
-    "buildpacks": [
-      {
-        "url": "heroku/nodejs"
-      },
-      {
-        "url": "https://github.com/heroku/heroku-buildpack-static"
-      }
-    ]
-  }
-
-
-
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static"
+    }
+  ]
+}
