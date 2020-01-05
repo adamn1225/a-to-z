@@ -13,26 +13,8 @@ const IndexPage = () => {
     return (
         <Layout>
             <UserForm />
-            
-            {/* <div className="topImg">
-                <div className="myContainer">
-            <h1>Getting a Quote is Free & Easy</h1>
-            <h2>We Care About Your Shipment</h2>
-            <h4>- Door-to-Door Service</h4>
-            <h4>- Bonded & Insured Carriers</h4>
-            <h4>- Supreme Costumer Service</h4>
-            
-            </div>
-
-            <div className="quoteButton">
-            <Button>Get a Quote</Button>
-            </div>
-            
-            </div> */}
             <section>
               <div className="second">
-              {/* <h1>Why Choose Us?</h1>
-              <p>Because we are the best logistics company in the WORLD.</p> */}
                 <Col className="openTransport">
                     <h3>OPEN CAR TRANSPORT</h3>
                     {/* <p>Transporting with an open carrier can be a cheaper option, and can also give the driver better visibility to inspect the vehicle.<Link>Speak with an agent</Link> Speak with an agent to find your best options.</p> */}
