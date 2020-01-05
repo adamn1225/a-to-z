@@ -30,7 +30,6 @@
     "reactstrap": "^8.2.0"
   },
   "devDependencies": {
-    "env-cmd": "^10.0.1",
     "prettier": "^1.19.1"
   },
   "repository": {
@@ -39,13 +38,4 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-static"
-    }
-  ]
-}
+  }
