@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
-import formStyles from './formPersonal.module.scss'
+import formStyles from './form.module.scss'
 
 export class FormPersonalDetails extends Component {
     continue = e => {
