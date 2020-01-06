@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
-  "dependencies": {
+  "dependencies": { 
     "@material-ui/core": "^4.8.2",
     "bootstrap": "^4.4.1",
     "gatsby": "^2.18.17",
