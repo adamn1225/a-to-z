@@ -12,6 +12,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+input, label{
+    color: #fff !important;
+    
+}
+
+.MuiInput-underline:before {
+    border-bottom-color: white !important;
+}
+
 .myContainer {
     margin: 0 auto;
     max-width: 80%;
@@ -22,19 +31,19 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
 }
 
-.topImg {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 65vh;
-    background-image:  linear-gradient( rgba(255, 255, 255, 0.253)),  url("https://i.kinja-img.com/gawker-media/image/upload/s--f0swC2cf--/c_scale,f_auto,fl_progressive,q_80,w_800/y0t5l2htujdf2jxeam78.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    text-align: center;
-    color: black;
-}
+// .topImg {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     height: 65vh;
+//     background-image:  linear-gradient( rgba(255, 255, 255, 0.253)),  url("https://i.kinja-img.com/gawker-media/image/upload/s--f0swC2cf--/c_scale,f_auto,fl_progressive,q_80,w_800/y0t5l2htujdf2jxeam78.jpg");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     width: 100%;
+//     text-align: center;
+//     color: black;
+// }
 
 @media only screen and (max-width: 770px) {
     .topImg {

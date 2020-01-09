@@ -5,39 +5,50 @@
     justify-content: center;
     align-items: center;
     padding-top: 10rem;
-    padding-bottom: 7rem;
-    background-image:  linear-gradient( rgba(0, 0, 0, 0.753)),  url("https://i.kinja-img.com/gawker-media/image/upload/s--f0swC2cf--/c_scale,f_auto,fl_progressive,q_80,w_800/y0t5l2htujdf2jxeam78.jpg");
+    padding-bottom: 4rem;
+    background-image:  linear-gradient( rgba(255, 255, 255, 0.747)),  url("https://i.kinja-img.com/gawker-media/image/upload/s--f0swC2cf--/c_scale,f_auto,fl_progressive,q_80,w_800/y0t5l2htujdf2jxeam78.jpg");
     background-size: cover;
     height: 100%;
 }
 
-.formText, h3, h4, h5 {
+.formText>h3, h4, h5 {
+    color: black;
     display: flex;
     flex-direction: column !important;
 }
 
-.formText, label {
-    color: white !important;
-}
-
-.formText, input {
-    color: white !important;
-}
-
 .fields {
-    color: white !important;
+    background-color: rgba(0, 0, 0, .85);
+    padding-top: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 100%;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
+
+.fields2 {
+    background-color: rgba(0, 0, 0, .85);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.fields2, button {
+    display: block;
+}
+
+
 @media only screen and (max-width: 890px) {
-    .fields {
+    .fields, .fields2 {
         display: block !important;
     }
 }
@@ -45,3 +56,4 @@
 .fields, hr {
     right: 20px;
 }
+

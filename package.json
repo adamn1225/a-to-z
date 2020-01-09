@@ -12,8 +12,11 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
-  "dependencies": { 
-    "@material-ui/core": "^4.8.2",
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.39",
+    "autosuggest-highlight": "^3.1.1",
     "bootstrap": "^4.4.1",
     "gatsby": "^2.18.17",
     "gatsby-background-image": "^0.9.12",
@@ -30,6 +33,7 @@
     "reactstrap": "^8.2.0"
   },
   "devDependencies": {
+    "@types/material-ui": "^0.21.7",
     "env-cmd": "^10.0.1",
     "prettier": "^1.19.1"
   },

@@ -6,20 +6,20 @@
     align-items: center;
     padding-top: 10rem;
     padding-bottom: 7rem;
-    background-image:  linear-gradient( rgba(0, 0, 0, 0.753)),  url("https://i.kinja-img.com/gawker-media/image/upload/s--f0swC2cf--/c_scale,f_auto,fl_progressive,q_80,w_800/y0t5l2htujdf2jxeam78.jpg");
-    background-size: cover;
-    height: 100%;
+    // background-image:  linear-gradient( rgba(0, 0, 0, 0.753)),  url("https://i.kinja-img.com/gawker-media/image/upload/s--f0swC2cf--/c_scale,f_auto,fl_progressive,q_80,w_800/y0t5l2htujdf2jxeam78.jpg");
+    // background-size: cover;
+    // height: 100%;
 }
 
 .formText, label {
-    color: white !important;
+    color: black !important;
+    font-weight: bold;
 }
 
-.buttons {
-    display: flex !important;
+.formText, input {
+    color: black !important;
 }
 
 .fields {
-    color: white !important;
     display: flex;
 }
