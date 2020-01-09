@@ -20,15 +20,18 @@ export class FormUserDetails extends Component {
             
             <MuiThemeProvider>
 
-                <div className={formStyles.formText}>
-
+                
+            <div className={formStyles.topformimage}>
                 <React.Fragment>
+                <div className={formStyles.formText}>
             <h3>Getting a Quote is Free & Easy</h3>
             <h4>We Care About Your Shipment</h4>
             <h5>- Door-to-Door Service</h5>
             <h5>- Bonded & Insured Carriers</h5>
             <h5>- Supreme Costumer Service</h5><br />
-            <p><strong>Fill out the form below for a shipping quote</strong></p>
+            <h5><strong>Fill out the form below for a shipping quote</strong></h5>
+            </div>
+                <section className={formStyles.formBackground}>
                 <div className={formStyles.fields}>
                 <Zipo
                 onChange={handleChange('zipo')}
@@ -95,7 +98,8 @@ export class FormUserDetails extends Component {
                         onChange={handleChange('date')}
                         defaultValue={values.date}
                     />
-                    
+                    </div>
+                    <div className={formStyles.formButton}>
                     <RaisedButton 
                         label="Continue"
                         primary={true}
@@ -103,6 +107,9 @@ export class FormUserDetails extends Component {
                         onClick={this.continue}
                     />
                     </div>
+                    </section>
+
+ 
                 </React.Fragment>
                 </div>
             </MuiThemeProvider>
