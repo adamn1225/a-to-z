@@ -31,19 +31,51 @@ input, label{
     flex-direction: column;
 }
 
-// .topImg {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     height: 65vh;
-//     background-image:  linear-gradient( rgba(255, 255, 255, 0.253)),  url("https://i.kinja-img.com/gawker-media/image/upload/s--f0swC2cf--/c_scale,f_auto,fl_progressive,q_80,w_800/y0t5l2htujdf2jxeam78.jpg");
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     width: 100%;
-//     text-align: center;
-//     color: black;
-// }
+// top section begins
+.topImage {
+    background-image:  linear-gradient( rgba(255, 255, 255, 0.747)),  url("https://i.kinja-img.com/gawker-media/image/upload/s--f0swC2cf--/c_scale,f_auto,fl_progressive,q_80,w_800/y0t5l2htujdf2jxeam78.jpg");
+    background-size: cover;
+}
+
+.formText {
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+
+    height: 100%;
+}
+
+
+.quoteButton {
+    text-align: center !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem !important;
+}
+
+
+@media only screen and (max-width: 890px) {
+    .fields, .fields2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.fields, hr {
+    right: 20px;
+}
+
+
+
+//top section ends
 
 @media only screen and (max-width: 770px) {
     .topImg {
