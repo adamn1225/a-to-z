@@ -14,8 +14,8 @@ const IndexPage = () => {
         <Layout>
            
             <div className="topSec">
+            <div className="formText">
             <Col>
-                <div className="formText">
             <h1>Getting a Quote is Free & Easy</h1>
             <h2>We Care About Your Shipment</h2>
             <h4>- Door-to-Door Service</h4>
@@ -32,49 +32,53 @@ const IndexPage = () => {
                    </div>
                 </div>
 
-                </div>
                 
                 </Col>
                 <Col>
-                <div className="formImg">
+                <div>
                 </div>
                 </Col>
                 </div>
+                </div>
                 
            
-            {/* <Col>
-          <div className="topSec">
-                <div className="formText">
-            <h1>Getting a Quote is Free & Easy</h1>
-            <h2>We Care About Your Shipment</h2>
-            <h4>- Door-to-Door Service</h4>
-            <h4>- Bonded & Insured Carriers</h4>
-            <h4>- Supreme Costumer Service</h4><br />
-            <h4><strong>Fill out the form below for a shipping quote</strong></h4>
-            
-                <div className="quoteButton">
-                    <Link to="/form"><Button variant="info">Get a Free Estimate</Button></Link>
-                </div>
-                </div>
-                </div>
-                </Col> */}
-            <section>
+               <Container>        
+                   <Row>
+                   <div className="transportTypes">
+                       <Col>
+                       <h5>OPEN TRAILER TRANSPORT</h5>
+                       <img src="https://img.icons8.com/plasticine/64/000000/car.png"></img>
+                       <p>Transporting with an open carrier can be a cheaper option...</p>
+                       </Col>
+                       <Col>
+                       <h5>ENCLOSED TRANSPORT</h5>
+                       <img src="https://img.icons8.com/cotton/64/000000/truck.png"></img>
+                       <p>Enclosed carriers could be the best option for you if you're transporting a luxury vehicle</p>
+                       </Col>
+                       <Col>
+                       <h5>HEAVY TRANSPORT</h5>
+                       <img src="https://img.icons8.com/dusk/64/000000/bulldozer.png"></img>
+                       <p>What goes into heavy freight transport? </p>
+                       </Col>
+                       </div>
+                   </Row>
+               </Container>
+
+            {/* <section>
               <div className="second">
                 <Col className="openTransport">
                     <h3>OPEN CAR TRANSPORT</h3>
-                    {/* <p>Transporting with an open carrier can be a cheaper option, and can also give the driver better visibility to inspect the vehicle.<Link>Speak with an agent</Link> Speak with an agent to find your best options.</p> */}
                     <Button variant="light">LEARN MORE</Button>
                 </Col>
                 <Col className="enclosed">ENCLOSED CAR TRANSPORT<br /><Button variant="info" size="lg">LEARN MORE</Button></Col>
                 <Col className="heavy">
                     <h3>HEAVY TRANSPORT</h3>
-                    {/* <p>Backhoes, graders, bull dozers, we do it all. We have the experience in knowledge when dealing with heavy equipment.</p> */}
                     <Button variant="light">LEARN MORE</Button>
                 </Col>
               </div>
-              
-          </section>
-            <article className="aboutUs">
+          </section> */}
+          
+            {/* <article className="aboutUs">
                   <h3>Why You Should Work With One of the Best Transport Companies</h3><br />
                   <Container>
                       <Col>
@@ -86,10 +90,13 @@ const IndexPage = () => {
                      
                       </Col>
                   </Container>
-                  </article>
+                  </article> */}
+
                   <Testimonials />
-                  <Container className="services">
+
+                  <Container>
                   <Row>
+                  <div className="services">
                       <Col>
                       <h6>Insurance Coverage</h6>
                       <img src="https://img.icons8.com/dusk/64/000000/vehicle-security.png"></img>
@@ -110,6 +117,7 @@ const IndexPage = () => {
                       <img src="https://img.icons8.com/dusk/64/000000/service.png"></img>
                       <p>Our professional auto transport company advisors work passionately to ensure you're working with the best vehicle transportation company. They will monitor your shipment around the clock.</p>
                       </Col>
+                      </div>
                   </Row>
                   </Container>
                   <article className='ctaSection'>
