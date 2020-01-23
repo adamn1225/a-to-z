@@ -12,20 +12,52 @@ import { Container, Row, Col } from 'reactstrap';
 const IndexPage = () => {
     return (
         <Layout>
-
-          <div className="topImage">
+           
+            <div className="topSec">
+            <Col>
                 <div className="formText">
-            <h3>Getting a Quote is Free & Easy</h3>
-            <h4>We Care About Your Shipment</h4>
-            <h5>- Door-to-Door Service</h5>
-            <h5>- Bonded & Insured Carriers</h5>
-            <h5>- Supreme Costumer Service</h5><br />
-            <h5><strong>Fill out the form below for a shipping quote</strong></h5>
-            </div>
+            <h1>Getting a Quote is Free & Easy</h1>
+            <h2>We Care About Your Shipment</h2>
+            <h4>- Door-to-Door Service</h4>
+            <h4>- Bonded & Insured Carriers</h4>
+            <h4>- Supreme Costumer Service</h4><br />
+            <h4><strong>Fill out the form below for a shipping quote</strong></h4>
+
+                <div className="topButtons">
+                  <div className="quoteButton">
+                    <Link to="/form"><Button variant="info">Get a Free Estimate</Button></Link>
+                  </div>
+                  <div className="careerButton">
+                    <Link to="/form"><Button variant="outline-info">Ship for Us</Button></Link>
+                   </div>
+                </div>
+
+                </div>
+                
+                </Col>
+                <Col>
+                <div className="formImg">
+                </div>
+                </Col>
+                </div>
+                
+           
+            {/* <Col>
+          <div className="topSec">
+                <div className="formText">
+            <h1>Getting a Quote is Free & Easy</h1>
+            <h2>We Care About Your Shipment</h2>
+            <h4>- Door-to-Door Service</h4>
+            <h4>- Bonded & Insured Carriers</h4>
+            <h4>- Supreme Costumer Service</h4><br />
+            <h4><strong>Fill out the form below for a shipping quote</strong></h4>
+            
                 <div className="quoteButton">
                     <Link to="/form"><Button variant="info">Get a Free Estimate</Button></Link>
                 </div>
                 </div>
+                </div>
+                </Col> */}
             <section>
               <div className="second">
                 <Col className="openTransport">

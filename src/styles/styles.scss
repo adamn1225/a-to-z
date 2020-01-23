@@ -1,4 +1,6 @@
 // colors
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 $main: #087CDB;
 
 $small-w: 375px;
@@ -10,6 +12,7 @@ html, body { height: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 input, label{
@@ -32,9 +35,15 @@ input, label{
 }
 
 // top section begins
-.topImage {
-    background-image:  linear-gradient( rgba(255, 255, 255, 0.747)),  url("https://i.kinja-img.com/gawker-media/image/upload/s--f0swC2cf--/c_scale,f_auto,fl_progressive,q_80,w_800/y0t5l2htujdf2jxeam78.jpg");
-    background-size: cover;
+.topSec {
+    // background-image: url("https://www.havi.com/sites/default/files/default_images/banner-default-big.jpg");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    background-color: rgba(244,244,244,0.7);
+    height: 90vh;
+    display: flex;
+    
+
 }
 
 .formText {
@@ -42,23 +51,39 @@ input, label{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding-top: 7rem;
-    padding-bottom: 1rem;
-
     height: 100%;
+    color: rgb(24, 59, 88);
 }
 
+.formImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    padding-top: 5rem;
+}
 
-.quoteButton {
-    text-align: center !important;
+@media only screen and (max-width: 890px) {
+    .formImg {
+        display: none;
+    }
+}
+
+.topButtons {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem !important;
+    align-content: center;
 }
 
+.quoteButton {
+    margin-bottom:0;
+}
+
+.careerButton {
+    margin-left: 20px;
+}
 
 @media only screen and (max-width: 890px) {
     .fields, .fields2 {
@@ -106,16 +131,13 @@ input, label{
 //     }
 //     }
 
-.quoteButton {
-    margin: 1rem 12%;
-    padding: 0rem;
-}
+
 
 .second {
+    background-color: white;
     display:  flex;
     text-align: center;
     padding:0px 0 0px;
-    margin-bottom: 20px;
     -webkit-box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.75);
     box-shadow: 0px 4px 4px -4px rgba(0,0,0,0.75);
@@ -145,7 +167,7 @@ input, label{
     align-items: center;
     background-image: linear-gradient( rgba(7, 7, 7, 0.753)),  url("../images/luxauto-transport.jpg");
     background-size: cover;
-    height: 50vh;
+    height: 30vh;
     padding: 100px;
     color: white;
     font-size:1.4rem;
@@ -163,7 +185,7 @@ input, label{
     align-items: center;
     background-image: linear-gradient(to right, rgba(8, 124, 219, 0.651), ),  url("../images/mustang-auto-transport.jpg");
     background-size: cover;
-    height: 50vh;
+    height: 30vh;
     padding: 100px;
     width: 60%;
     font-size:1.4rem;
@@ -199,7 +221,7 @@ input, label{
     align-items: center;
     background-image: linear-gradient(to right, rgba(8, 124, 219, 0.651), ),  url("../images/bulldozer.jpg");
     background-size: cover;
-    height: 50vh;
+    height: 30vh;
     padding: 100px;
     font-size:1.4rem;
     font-weight: 800;
@@ -228,6 +250,7 @@ input, label{
 }
 
 .aboutUs {
+    background-color: white;
     height: 45vh;
     display: flex;
     flex-direction: column;
@@ -249,11 +272,18 @@ input, label{
 }
 
 .services {
+    background-color: white;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    
 }
 
-.ctaSection {
-    margin-bottom: 10px;
+.testimonials-module--reviews--iGqcS {
+    margin-bottom: 0 !important;
 }
 
 .cta {
@@ -266,7 +296,8 @@ input, label{
     background-image: url("../images/black-steel.jpg");
     background-repeat: repeat;
     height: 30vh;
-    box-shadow: 0 8px 3px 0px gray;
+    box-shadow: 0 4px 3px 0px gray;
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 321px) and (max-width: 414px) {

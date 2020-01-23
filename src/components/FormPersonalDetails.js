@@ -20,13 +20,16 @@ export class FormPersonalDetails extends Component {
         const { values, handleChange } = this.props;
         return (
             <MuiThemeProvider>
+                <div className={formStyles.topSec}>
                 <React.Fragment>
                     <div className={formStyles.formText}>
-                    <h3>Getting a Quote is Free & Easy</h3>
-                    <h4>We Care About Your Shipment</h4>
-                    <h5>- Door-to-Door Service</h5>
-                    <h5>- Bonded & Insured Carriers</h5>
-                    <h5>- Supreme Costumer Service</h5>
+                    <h1>Getting a Quote is Free & Easy</h1>
+                    <h2>We Care About Your Shipment</h2>
+                    <h3>- Door-to-Door Service</h3>
+                    <h3>- Bonded & Insured Carriers</h3>
+                    <h3>- Supreme Costumer Service</h3>
+                    <div className={formStyles.formBackground}>
+                        <div className={formStyles.fields2}>
                     <TextField
                         hintStyle={{ color: 'white' }}
                         hintText="Enter Your First Name"
@@ -34,7 +37,6 @@ export class FormPersonalDetails extends Component {
                         onChange={handleChange('firstName')}
                         defaultValue={values.firstName}
                     />
-                    <br/>
                     <TextField 
                         hintStyle={{ color: 'white' }}
                         hintText="Enter Your Last Name"
@@ -43,7 +45,6 @@ export class FormPersonalDetails extends Component {
                         onChange={handleChange('lastName')}
                         defaultValue={values.lastName}
                     />
-                    <br/>
                      <TextField 
                         hintStyle={{ color: 'white' }}
                         hintText="Enter Your email"
@@ -51,7 +52,8 @@ export class FormPersonalDetails extends Component {
                         onChange={handleChange('email')}
                         defaultValue={values.email}
                     />
-                    <br />
+                    </div>
+                    
                     <div className={formStyles.buttons}>
                     <RaisedButton
                         label="Continue"
@@ -66,8 +68,10 @@ export class FormPersonalDetails extends Component {
                         onClick={this.back}
                     />
                     </div>
+                    </div>
                 </div>
                 </React.Fragment>
+                </div>
             </MuiThemeProvider>
         );
     }

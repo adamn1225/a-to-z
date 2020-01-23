@@ -1,25 +1,25 @@
+.topSec {
+    // background-image: url("https://www.havi.com/sites/default/files/default_images/banner-default-big.jpg");
+    // background-size: cover;
+    background-color: rgba(244,244,244,0.7);
+    height: 90vh;
+}
+
 .formText {
     text-align: center !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding-top: 10rem;
-    padding-bottom: 7rem;
-    // background-image:  linear-gradient( rgba(0, 0, 0, 0.753)),  url("https://i.kinja-img.com/gawker-media/image/upload/s--f0swC2cf--/c_scale,f_auto,fl_progressive,q_80,w_800/y0t5l2htujdf2jxeam78.jpg");
-    // background-size: cover;
-    // height: 100%;
+    padding-top: 5rem;
+    height: 100%;
+    color: rgb(24, 59, 88);
 }
 
-.formText, label {
-    color: black !important;
-    font-weight: bold;
-}
 
-.formText, input {
-    color: black !important;
-}
 
-.fields {
-    display: flex;
+.formBackground {
+    background-color: rgba(0, 0, 0, .7);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .5);
+    width: 100%;
+    margin-top: 40px;
 }
