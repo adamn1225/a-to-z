@@ -23,7 +23,7 @@ const Header = () => {
         <header className={headerStyles.header}>
              <nav>
 
-           
+           <div className={headerStyles.flex}>
                 <ul className={headerStyles.navList}>
                     <li>
                 <Link className={headerStyles.title} to="/">
@@ -43,17 +43,27 @@ const Header = () => {
                 <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/contact">Contact</Link>
                     </li>
                 
-                    <li className={headerStyles.mcNum}>
+                    {/* <li className={headerStyles.mcNum}>
                     <p>MC# 1322334</p>
                     <p className={headerStyles.vline}>Talk To Us!<br /> <a href="tel:800-888-8888">800-888-8888</a></p>
-                    </li>
+                    </li> */}
                 </ul>
+
+              <div className={headerStyles.mcNum}>
+              <p>
+              MC# 1322334 
+              </p>
+              <p className={headerStyles.vline}>Talk To Us!<br /> <a href="tel:800-888-8888">800-888-8888</a></p>
+              </div>
+              </div>
             </nav>
+
             {/* <div className={headerStyles.mcNum}>
                 <p>MC# 1322334</p>
                 <p className={headerStyles.vline}>Talk To Us!<br /> <a href="tel:800-888-8888">800-888-8888</a></p>
                 <Link className={headerStyles.Buttonvline} to="/form"><Button variant="info">Get Quote</Button></Link>
             </div> */}
+            
         </header>
         </div>
     )

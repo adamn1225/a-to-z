@@ -9,8 +9,14 @@ $large-w: 1200px;
 $small-h: 667px;
 $large-h: 812px;
 
-header {
+nav {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+}
+
+.flex {
+    display: flex;
 }
 
 .header {
@@ -22,9 +28,6 @@ header {
     box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.3); 
     z-index: 500;
     width: 100%;
-    display: flex;
-    align-items: stretch;
-    height: auto;
 }
 
 @media only screen and (max-width: $small-w) and (max-height: $small-h) {
@@ -55,6 +58,7 @@ header {
 }
 
 .nav-list {
+    width: 100%;
     display: flex;
     align-items: center;
     list-style-type: none;
@@ -78,13 +82,18 @@ header {
     text-decoration: none;
 }
 
+.flexContainer {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
 .mcNum {
-    height: auto;
-    // padding-left: 40em;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-items: flex-end;
+    align-items: flex-start;
+    justify-content: flex-end;
     white-space: nowrap;
 }
 
