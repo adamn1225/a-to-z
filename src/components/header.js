@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
-import { NavLink } from 'react-router-dom'
-
+import { Button } from 'react-bootstrap';
 import headerStyles from './header.module.scss'
 
 
@@ -43,11 +42,18 @@ const Header = () => {
                      <li>
                 <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/contact">Contact</Link>
                     </li>
+                
+                    <li className={headerStyles.mcNum}>
+                    <p>MC# 1322334</p>
+                    <p className={headerStyles.vline}>Talk To Us!<br /> <a href="tel:800-888-8888">800-888-8888</a></p>
+                    </li>
                 </ul>
             </nav>
-            <div className={headerStyles.mcNum}>
-                <p>MC# 1322334</p><p className={headerStyles.vline}>Talk To Us!<br /> <a href="tel:800-888-8888">800-888-8888</a></p>
-            </div>
+            {/* <div className={headerStyles.mcNum}>
+                <p>MC# 1322334</p>
+                <p className={headerStyles.vline}>Talk To Us!<br /> <a href="tel:800-888-8888">800-888-8888</a></p>
+                <Link className={headerStyles.Buttonvline} to="/form"><Button variant="info">Get Quote</Button></Link>
+            </div> */}
         </header>
         </div>
     )
