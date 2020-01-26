@@ -13,7 +13,8 @@ const IndexPage = () => {
     return (
         <Layout>
            
-            <div className="topSec">
+            <section className="topSec">
+                <div className="topBanner">
             <div className="formText">
             <Col>
             <h1>Getting a Quote is Free & Easy</h1>
@@ -40,6 +41,7 @@ const IndexPage = () => {
                 </Col>
                 </div>
                 </div>
+                </section>
                 
            
                <Container>        
@@ -78,19 +80,7 @@ const IndexPage = () => {
               </div>
           </section> */}
           
-            {/* <article className="aboutUs">
-                  <h3>Why You Should Work With One of the Best Transport Companies</h3><br />
-                  <Container>
-                      <Col>
-                      <p>With over 10 years of experience in the hauling industry, we have the capability to take you to the moon. Expect supreme customer service and expert solutions for your shippment. We're here for you 365/24/7.</p>
-                      <p>With over 10 years of experience in the hauling industry, we have the capability to take you to the moon. Expect supreme customer service and expert solutions for your shippment. We're here for you 365/24/7.</p>
-                      </Col>
-                      <Col>
-                      <img src="https://img.icons8.com/dusk/64/000000/treasure-map.png"></img>
-                     
-                      </Col>
-                  </Container>
-                  </article> */}
+
 
                   <Testimonials />
 
@@ -125,10 +115,22 @@ const IndexPage = () => {
                       <h2>Ready To Get Your Shippment Booked With A to Z Logisitcs?</h2>
                       <h4>Click to button below to get a free shipping quote or <b><a href="tel:954-826-4318">CALL US!</a></b></h4>
                       <Button>Get A Quote Instantly</Button>
+                      </Col>              
+                 </article>
+
+                 <article className="aboutUs">
+                  <h3>Why You Should Work With One of the Best Transport Companies</h3><br />
+                  <Container>
+                      <Col>
+                      <p>With over 10 years of experience in the hauling industry, we have the capability to take you to the moon. Expect supreme customer service and expert solutions for your shippment. We're here for you 365/24/7.</p>
+                      <p>With over 10 years of experience in the hauling industry, we have the capability to take you to the moon. Expect supreme customer service and expert solutions for your shippment. We're here for you 365/24/7.</p>
                       </Col>
-          
-              
-          </article>
+                      <Col>
+                      <img src="https://img.icons8.com/dusk/64/000000/treasure-map.png"></img>
+                     
+                      </Col>
+                  </Container>
+                  </article>
           
         </Layout>
     )

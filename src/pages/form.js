@@ -13,22 +13,22 @@ const IndexPage = () => {
     return (
         <Layout>
             <UserForm />
-            <section>
+            {/* <section>
               <div className="second">
                 <Col className="openTransport">
                     <h3>OPEN CAR TRANSPORT</h3>
-                    {/* <p>Transporting with an open carrier can be a cheaper option, and can also give the driver better visibility to inspect the vehicle.<Link>Speak with an agent</Link> Speak with an agent to find your best options.</p> */}
+                    <p>Transporting with an open carrier can be a cheaper option, and can also give the driver better visibility to inspect the vehicle.<Link>Speak with an agent</Link> Speak with an agent to find your best options.</p>
                     <Button variant="light">LEARN MORE</Button>
                 </Col>
                 <Col className="enclosed">ENCLOSED CAR TRANSPORT<br /><Button variant="info" size="lg">LEARN MORE</Button></Col>
                 <Col className="heavy">
                     <h3>HEAVY TRANSPORT</h3>
-                    {/* <p>Backhoes, graders, bull dozers, we do it all. We have the experience in knowledge when dealing with heavy equipment.</p> */}
+                    <p>Backhoes, graders, bull dozers, we do it all. We have the experience in knowledge when dealing with heavy equipment.</p>
                     <Button variant="light">LEARN MORE</Button>
                 </Col>
               </div>
               
-          </section>
+          </section> */}
             <article className="aboutUs">
                   <h3>Why You Should Work With One of the Best Transport Companies</h3><br />
                   <Container>

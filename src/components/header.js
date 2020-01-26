@@ -17,6 +17,10 @@ const Header = () => {
     `)
 
     return (
+        <div>
+            {/* <div className={headerStyles.topHeader}>
+                <Link><p>MC#000000</p></Link>
+            </div> */}
         <header className={headerStyles.header}>
              <nav>
 
@@ -41,7 +45,11 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
+            <div className={headerStyles.mcNum}>
+                <p>MC# 1322334</p><p className={headerStyles.vline}>Talk To Us!<br /> <a href="tel:800-888-8888">800-888-8888</a></p>
+            </div>
         </header>
+        </div>
     )
 }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 // colors
 $main: #087CDB;
 
@@ -8,15 +10,17 @@ $small-h: 667px;
 $large-h: 812px;
 
 .header {
-    padding: .7rem 15rem 0rem;
-    background: white;
-    -webkit-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.3);
-    box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.3);
-
     position: fixed;
+    padding: .5rem 5rem 0rem;
+    background: white;
+    // -webkit-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.3);
+    // -moz-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.3); 
     z-index: 1;
     width: 100%;
+    display: flex;
+    align-items: center;
+    height: auto;
 }
 
 @media only screen and (max-width: $small-w) and (max-height: $small-h) {
@@ -28,16 +32,16 @@ $large-h: 812px;
 }
 
 .title {  
-    color:#087CDB;
+    // color:#087CDB;
+    color: black;
     font-size: 1.5rem;
     text-decoration: none;
-    margin-right: 10rem;
+    margin-right: 5rem;
     float: left;
     display: table-cell;
     vertical-align: middle;
-    word-wrap: none;
-    word-break: keep-all;
-    word-break: unset;
+    white-space: nowrap;
+    font-family: 'Lato', sans-serif;
 }
 
 @media only screen and (max-width: $small-w) and (max-height: $small-h) {
@@ -48,23 +52,51 @@ $large-h: 812px;
 
 .nav-list {
     display: flex;
+    align-items: center;
     list-style-type: none;
     margin: 0;
-    font-weight: lighter;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
 }
 
-@media only screen and (max-width: $small-w) and (max-height: $small-h) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
     .nav-item {
-        display: none;
+        display: none !important;
     }
 }
 
 .nav-item{
     color: black;
-    font-size: 1.3rem;
-    font-weight: lighter;
-    margin-right: 4.2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-right: 2.2rem;
     text-decoration: none;
+}
+
+.mcNum {
+    height: auto;
+    padding-left: 45em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.mcNum > p {
+    margin-left: 10px;
+    color: rgb(24, 59, 88);
+}
+
+.mcNum > p > a{
+    color: rgb(24, 59, 88) !important;
+    text-decoration: underline;
+}
+
+.vline {
+    border-left: thin solid grey;
+    padding-left: 10px;
 }
 
 .nav-item:hover {
