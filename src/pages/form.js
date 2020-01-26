@@ -13,37 +13,8 @@ const IndexPage = () => {
     return (
         <Layout>
             <UserForm />
-            {/* <section>
-              <div className="second">
-                <Col className="openTransport">
-                    <h3>OPEN CAR TRANSPORT</h3>
-                    <p>Transporting with an open carrier can be a cheaper option, and can also give the driver better visibility to inspect the vehicle.<Link>Speak with an agent</Link> Speak with an agent to find your best options.</p>
-                    <Button variant="light">LEARN MORE</Button>
-                </Col>
-                <Col className="enclosed">ENCLOSED CAR TRANSPORT<br /><Button variant="info" size="lg">LEARN MORE</Button></Col>
-                <Col className="heavy">
-                    <h3>HEAVY TRANSPORT</h3>
-                    <p>Backhoes, graders, bull dozers, we do it all. We have the experience in knowledge when dealing with heavy equipment.</p>
-                    <Button variant="light">LEARN MORE</Button>
-                </Col>
-              </div>
-              
-          </section> */}
-            <article className="aboutUs">
-                  <h3>Why You Should Work With One of the Best Transport Companies</h3><br />
-                  <Container>
-                      <Col>
-                      <p>With over 10 years of experience in the hauling industry, we have the capability to take you to the moon. Expect supreme customer service and expert solutions for your shippment. We're here for you 365/24/7.</p>
-                      <p>With over 10 years of experience in the hauling industry, we have the capability to take you to the moon. Expect supreme customer service and expert solutions for your shippment. We're here for you 365/24/7.</p>
-                      </Col>
-                      <Col>
-                      <img src="https://img.icons8.com/dusk/64/000000/treasure-map.png"></img>
-                     
-                      </Col>
-                  </Container>
-                  </article>
-                  <Testimonials />
-                  <Container className="services">
+
+            <Container className="services">
                   <Row>
                       <Col>
                       <h6>Insurance Coverage</h6>
@@ -67,15 +38,25 @@ const IndexPage = () => {
                       </Col>
                   </Row>
                   </Container>
-                  <article className='ctaSection'>
-                      <Col className="cta">
-                      <h2>Ready To Get Your Shippment Booked With A to Z Logisitcs?</h2>
-                      <h4>Click to button below to get a free shipping quote or <b><a href="tel:954-826-4318">CALL US!</a></b></h4>
-                      <Button>Get A Quote Instantly</Button>
-                      </Col>
-          
+
+            {/* <section>
+              <div className="second">
+                <Col className="openTransport">
+                    <h3>OPEN CAR TRANSPORT</h3>
+                    <p>Transporting with an open carrier can be a cheaper option, and can also give the driver better visibility to inspect the vehicle.<Link>Speak with an agent</Link> Speak with an agent to find your best options.</p>
+                    <Button variant="light">LEARN MORE</Button>
+                </Col>
+                <Col className="enclosed">ENCLOSED CAR TRANSPORT<br /><Button variant="info" size="lg">LEARN MORE</Button></Col>
+                <Col className="heavy">
+                    <h3>HEAVY TRANSPORT</h3>
+                    <p>Backhoes, graders, bull dozers, we do it all. We have the experience in knowledge when dealing with heavy equipment.</p>
+                    <Button variant="light">LEARN MORE</Button>
+                </Col>
+              </div>
               
-          </article>
+          </section> */}
+
+                  <Testimonials />
           
         </Layout>
     )

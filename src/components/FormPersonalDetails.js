@@ -23,11 +23,7 @@ export class FormPersonalDetails extends Component {
                 <div className={formStyles.topSec}>
                 <React.Fragment>
                     <div className={formStyles.formText}>
-                    <h1>Getting a Quote is Free & Easy</h1>
-                    <h2>We Care About Your Shipment</h2>
-                    <h3>- Door-to-Door Service</h3>
-                    <h3>- Bonded & Insured Carriers</h3>
-                    <h3>- Supreme Costumer Service</h3>
+                    <h3><strong>Contact Information</strong></h3>
                     <div className={formStyles.formBackground}>
                         <div className={formStyles.fields2}>
                     <TextField
