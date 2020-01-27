@@ -38,18 +38,25 @@ input, label{
     height:100%;
 }
 
-@media only screen and (min-width:782px) and (max-width:1440px) {
+@media only screen and (min-width:1025px) and (max-width:1440px) {
     .topBanner {
-        background-position-x: 310px;
+        background-position-x: 410px;
+    }
+}
+
+@media only screen and (min-width:830px) and (max-width: 1024px) {
+    .topBanner {
+        background-position-x: 370px;
         background-position-y: 200px;
     }
 }
 
-@media only screen and (min-width: 300px) and (max-width:767px) {
+@media only screen and (min-width: 300px) and (max-width:768px) {
     .topBanner {
-        background-position-x: 1000px;
+        background-image: url();
     }
 }
+
 
 @media only screen and (min-width: 320px) and (max-width:374px) {
     .topSec {
@@ -143,6 +150,32 @@ input, label{
     }
 }
 
+.atozShipping {
+    margin-top: 6em;
+    display: flex;
+}
+
+.howItIs {
+    margin-top: 5em;
+}
+
+.relaxing {
+    box-shadow: 2px 7px 16px -8px rgba(0,0,0,0.75);
+}
+
+.businessShipping {
+    margin-bottom: 6em;
+    display: flex;
+}
+
+.businessLoad {
+    box-shadow: 2px 7px 16px -8px rgba(0,0,0,0.75);
+}
+
+.business {
+    margin-top: 2.5em;
+}
+
 .aboutUs {
     background-color: white;
     height: 20rem;
@@ -189,7 +222,7 @@ input, label{
     align-items: center;
     text-align: center;
     color: white;
-    background: repeating-linear-gradient(0deg, rgb(47, 47, 47) 0px, rgb(47, 47, 47) 1px,transparent 1px, transparent 51px),repeating-linear-gradient(90deg, rgb(47, 47, 47) 0px, rgb(47, 47, 47) 1px,transparent 1px, transparent 51px),linear-gradient(90deg, hsl(278,0%,16%),hsl(278,0%,16%));
+    background: repeating-linear-gradient(0deg, rgb(47, 47, 47) 0px, rgb(47, 47, 47) 1px,transparent 1px, transparent 51px),repeating-linear-gradient(90deg, rgb(47, 47, 47) 0px, rgb(55, 47, 47) 1px,transparent 1px, transparent 51px),linear-gradient(90deg, hsl(217°, 27%, 15%),hsl(278,0%,16%));
     height: 15rem;
     box-shadow: 0 4px 3px 0px gray;
     margin-bottom: 1rem;

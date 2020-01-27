@@ -79,7 +79,29 @@ const IndexPage = () => {
                 </Col>
               </div>
           </section> */}
-          
+                <Container>
+                    <div className="atozShipping">
+                    
+                    <Col className="howItIs">
+                    <h2>How It Is To Ship With A-to-Z</h2>
+                    <p>We make shipping cheap by directly connection you with carriers who have extra truck space.</p>
+                    <Link to="./">Read More</Link>
+                    </Col>
+                    <Col>
+                    <img className="relaxing" src={require("../images/relaxing-laptop.jpg")} alt="" />
+                    </Col>
+                    </div>
+                    <div className="businessShipping">
+                    <Col>
+                    <img className="businessLoad" src={require("../images/business-shipping.jpg")} alt="" />
+                    </Col>
+                    <Col className="business">
+                    <h2>Shipping For The Business Owners</h2>
+                    <p>We take care of everything - scheduling, paperwork, payment, and etc. We help you transport faster so that you can focus on taking care of your business. </p>
+                    <Link to="./">Read More</Link>
+                    </Col>
+                    </div>
+                </Container>
 
 
                   <Testimonials />
