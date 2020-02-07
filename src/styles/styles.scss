@@ -1,3 +1,5 @@
+//Index
+
 // colors
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
@@ -253,4 +255,24 @@ input, label{
     .cta {
         height: 20rem;
     }
+}
+
+
+// end Index
+
+//Gallery
+
+.top-gallery {
+    margin-top: 8em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+.gallery {
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+.galleryImg > img {
+    margin: 0;
 }

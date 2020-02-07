@@ -36,7 +36,8 @@ const IndexPage = () => {
                 
                 </Col>
                 <Col>
-                <div>
+                <div className="truck-banner">
+                    {/* <img src={require("../images/truck-hero-banner1.png")} /> */}
                 </div>
                 </Col>
                 </div>
