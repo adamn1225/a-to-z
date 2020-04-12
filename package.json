@@ -24,11 +24,12 @@
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-transformer-remark": "^2.6.45",
     "material-ui": "^0.20.2",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "npm-upgrade": "^2.0.2",
     "react": "16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "16.12.0",
+    "react-lazyload": "^2.6.7",
     "react-router-dom": "^5.1.2",
     "reactstrap": "^8.2.0"
   },
