@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Testimonials from "../components/testimonials"
 import UserForm from '../components/UserForm'
+import LazyLoad from 'react-lazyload';
 
 import '../styles/styles.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -50,17 +51,23 @@ const IndexPage = () => {
                    <div className="transportTypes">
                        <Col>
                        <h5>OPEN TRAILER TRANSPORT</h5>
+                       <LazyLoad height={200} offset={10} >
                        <img src="https://img.icons8.com/plasticine/64/000000/car.png"></img>
+                       </LazyLoad>
                        <p>Transporting with an open carrier can be a cheaper option...</p>
                        </Col>
                        <Col>
                        <h5>ENCLOSED TRANSPORT</h5>
+                       <LazyLoad height={200} offset={10} >
                        <img src="https://img.icons8.com/cotton/64/000000/truck.png"></img>
+                       </LazyLoad>
                        <p>Enclosed carriers could be the best option for you if you're transporting a luxury vehicle</p>
                        </Col>
                        <Col>
                        <h5>HEAVY TRANSPORT</h5>
+                       <LazyLoad height={200} offset={10} >
                        <img src="https://img.icons8.com/dusk/64/000000/bulldozer.png"></img>
+                       </LazyLoad>
                        <p>What goes into heavy freight transport? </p>
                        </Col>
                        </div>
@@ -89,12 +96,16 @@ const IndexPage = () => {
                     <Link to="./">Read More</Link>
                     </Col>
                     <Col>
+                    <LazyLoad height={200} offset={10} >
                     <img className="relaxing" src={require("../images/relaxing-laptop.jpg")} alt="" />
+                    </LazyLoad>
                     </Col>
                     </div>
                     <div className="businessShipping">
                     <Col>
+                    <LazyLoad height={200} offset={10} >
                     <img className="businessLoad" src={require("../images/business-shipping.jpg")} alt="" />
+                    </LazyLoad>
                     </Col>
                     <Col className="business">
                     <h2>Shipping For The Business Owner</h2>
@@ -109,6 +120,7 @@ const IndexPage = () => {
 
                   <Container>
                   <Row>
+                  <LazyLoad height={200} offset={10} >
                   <div className="services">
                       <Col>
                       <h6>Insurance Coverage</h6>
@@ -131,6 +143,7 @@ const IndexPage = () => {
                       <p>Our professional auto transport company advisors work passionately to ensure you're working with the best vehicle transportation company. They will monitor your shipment around the clock.</p>
                       </Col>
                       </div>
+                      </LazyLoad>
                   </Row>
                   </Container>
                   <article className='ctaSection'>

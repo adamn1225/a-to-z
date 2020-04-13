@@ -33,6 +33,7 @@ const BlogPage = () => {
           <div className="gallery">
             <Container>
               <Row>
+              <LazyLoad height={200} offset={10} >
                 <Col className="galleryImg">
                 <img src={require("../images/luxauto-transport.jpg")} /> 
                 <h5>Transport a (blank)</h5>
@@ -48,8 +49,10 @@ const BlogPage = () => {
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
+                </LazyLoad>
               </Row>
               <Row>
+              <LazyLoad height={200} offset={10} >
                 <Col className="galleryImg">
                 <img src={require("../images/luxauto-transport.jpg")} /> 
                 <h5>Transport a (blank)</h5>
@@ -65,8 +68,10 @@ const BlogPage = () => {
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
+                </LazyLoad>
               </Row>
               <Row>
+              <LazyLoad height={200} offset={10} >
                 <Col>
                 <img src={require("../images/luxauto-transport.jpg")} /> 
                 <h5>Transport a (blank)</h5>
@@ -82,6 +87,7 @@ const BlogPage = () => {
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
+                </LazyLoad>
               </Row>
               </Container>
               </div>

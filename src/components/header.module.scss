@@ -73,6 +73,12 @@ nav {
     }
 }
 
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    .mcNum{
+        display: none !important;
+    }
+}
+
 .nav-item{
     color: black;
     font-size: 1.1rem;
