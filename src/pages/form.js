@@ -18,22 +18,22 @@ const IndexPage = () => {
                   <Row>
                       <Col>
                       <h6>Insurance Coverage</h6>
-                      <img src="https://img.icons8.com/dusk/64/000000/vehicle-security.png"></img>
+                      <img src="https://img.icons8.com/dusk/64/000000/vehicle-security.png" alt="Insurance Icon"></img>
                       <p>Car transport companies include insurance coverage in your shipping quote. Our selected auto haulers must meet insurance standards before qualifying to be part of our carrier network.</p>
                       </Col>
                       <Col>
                       <h6 className="doorImg">Door-to-Door Service</h6>
-                      <img src="https://img.icons8.com/dusk/64/000000/treasure-map.png"></img>
+                      <img src="https://img.icons8.com/dusk/64/000000/treasure-map.png" alt="door to door services"></img>
                       <p>Don't worry about having to drive out of your way to meet your driver. The driver will come straight to your pick up location and deliver it exactly where you need your shippment to be.</p>
                       </Col>
                       <Col>
                       <h6 className="noPayImg">No Up Front Payments</h6>
-                      <img src="https://img.icons8.com/officel//000000/no-hidden-fee.png"></img>
+                      <img src="https://img.icons8.com/officel//000000/no-hidden-fee.png" alt="Shipping cost"></img>
                       <p>You read that right, $0! The best auto transport companies charge you once the carrier has been dispatched for your order. You can book with your auto transport company now without seeing a bill.</p>
                       </Col>
                       <Col>
                       <h6 className="csImg">Superior Costumer Service</h6>
-                      <img src="https://img.icons8.com/dusk/64/000000/service.png"></img>
+                      <img src="https://img.icons8.com/dusk/64/000000/service.png" alt="professional transport services - customer service"></img>
                       <p>Our professional auto transport company advisors work passionately to ensure you're working with the best vehicle transportation company. They will monitor your shipment around the clock.</p>
                       </Col>
                   </Row>

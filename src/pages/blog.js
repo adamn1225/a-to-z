@@ -35,17 +35,17 @@ const BlogPage = () => {
               <Row>
               <LazyLoad height={200} offset={10} >
                 <Col className="galleryImg">
-                <img src={require("../images/luxauto-transport.jpg")} /> 
+                <img src={require("../images/luxauto-transport.jpg")} alt="Luxery auto transport"/> 
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
                 <Col className="galleryImg">
-                <img src={require("../images/mustang-auto-transport.jpg")} />
+                <img src={require("../images/mustang-auto-transport.jpg")} alt="mustang auto transport"/>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
                 <Col className="galleryImg">
-                <img src={require("../images/bulldozer.jpg")} />
+                <img src={require("../images/bulldozer.jpg")} alt="Bulldozer Hauling"/>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
@@ -54,17 +54,17 @@ const BlogPage = () => {
               <Row>
               <LazyLoad height={200} offset={10} >
                 <Col className="galleryImg">
-                <img src={require("../images/luxauto-transport.jpg")} /> 
+                <img src={require("../images/luxauto-transport.jpg")} alt="Luxery auto transport"/> 
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
                 <Col className="galleryImg">
-                <img src={require("../images/mustang-auto-transport.jpg")} />
+                <img src={require("../images/mustang-auto-transport.jpg")} alt="mustang auto transport"/>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
                 <Col className="galleryImg">
-                <img src={require("../images/bulldozer.jpg")} />
+                <img src={require("../images/bulldozer.jpg")} alt="Bulldozer Hauling"/>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
@@ -73,17 +73,17 @@ const BlogPage = () => {
               <Row>
               <LazyLoad height={200} offset={10} >
                 <Col>
-                <img src={require("../images/luxauto-transport.jpg")} /> 
+                <img src={require("../images/luxauto-transport.jpg")} alt="Luxery auto transport"/> 
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
                 <Col>
-                <img src={require("../images/mustang-auto-transport.jpg")} />
+                <img src={require("../images/mustang-auto-transport.jpg")} alt="mustang auto transport"/>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
                 <Col>
-                <img src={require("../images/bulldozer.jpg")} />
+                <img src={require("../images/bulldozer.jpg")} alt="Bulldozer Hauling"/>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
@@ -105,21 +105,21 @@ const BlogPage = () => {
               <Row>
                 <Col className="galleryImg">
                 <LazyLoad height={200} offset={10} >
-                <img src={require("../images/luxauto-transport.jpg")} /> 
+                <img src={require("../images/luxauto-transport.jpg")} alt="Luxery auto transport"/> 
                 </LazyLoad>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
                 <Col className="galleryImg">
                 <LazyLoad height={200} offset={10}>
-                <img src={require("../images/mustang-auto-transport.jpg")} />
+                <img src={require("../images/mustang-auto-transport.jpg")} alt="mustang auto transport"/>
                 </LazyLoad>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
                 <Col className="galleryImg">
                 <LazyLoad height={200} offset={10}>
-                <img src={require("../images/bulldozer.jpg")} />
+                <img src={require("../images/bulldozer.jpg")} alt="Bulldozer Hauling"/>
                 </LazyLoad>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
@@ -128,17 +128,17 @@ const BlogPage = () => {
               <Row>
               <LazyLoad height={200} offset={10} >
                 <Col className="galleryImg">
-                <img src={require("../images/luxauto-transport.jpg")} /> 
+                <img src={require("../images/luxauto-transport.jpg")} alt="Luxery auto transport"/> 
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
                 <Col className="galleryImg">
-                <img src={require("../images/mustang-auto-transport.jpg")} />
+                <img src={require("../images/mustang-auto-transport.jpg")} alt="mustang auto transport"/>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
                 <Col className="galleryImg">
-                <img src={require("../images/bulldozer.jpg")} />
+                <img src={require("../images/bulldozer.jpg")} alt="Bulldozer Hauling"/>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                </Col>
@@ -147,17 +147,17 @@ const BlogPage = () => {
               <Row>
               <LazyLoad height={200} offset={10} >
                 <Col>
-                <img src={require("../images/luxauto-transport.jpg")} /> 
+                <img src={require("../images/luxauto-transport.jpg")} alt="Luxery auto transport"/> 
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
                 <Col>
-                <img src={require("../images/mustang-auto-transport.jpg")} />
+                <img src={require("../images/mustang-auto-transport.jpg")} alt="mustang auto transport"/>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>
                 <Col>
-                <img src={require("../images/bulldozer.jpg")} />
+                <img src={require("../images/bulldozer.jpg")} alt="Bulldozer Hauling"/>
                 <h5>Transport a (blank)</h5>
                 <p>Annoy kitten brother with poking gimme attention gimme attention gimme attention gimme attention gimme attention gimme attention just kidding i don't want it anymore meow bye for find empty spot in cupboard and sleep all day and purr and shove bum in owner's face like camera lens. Murf pratt ungow ungow cats woo so meow to be let out. Refuse to come home when humans are going to bed; stay out all night then yowl like i am dying at 4am catching very fast laser pointer or throw down all the stuff in the kitchen yet cat walks in keyboard . </p>
                 </Col>

@@ -52,21 +52,21 @@ const IndexPage = () => {
                        <Col>
                        <h5>OPEN TRAILER TRANSPORT</h5>
                        <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/plasticine/64/000000/car.png"></img>
+                       <img src="https://img.icons8.com/plasticine/64/000000/car.png" alt="Open Transport Icon"></img>
                        </LazyLoad>
                        <p>Transporting with an open carrier can be a cheaper option...</p>
                        </Col>
                        <Col>
                        <h5>ENCLOSED TRANSPORT</h5>
                        <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/cotton/64/000000/truck.png"></img>
+                       <img src="https://img.icons8.com/cotton/64/000000/truck.png" alt="Enclosed Transport Icon"></img>
                        </LazyLoad>
                        <p>Enclosed carriers could be the best option for you if you're transporting a luxury vehicle</p>
                        </Col>
                        <Col>
                        <h5>HEAVY TRANSPORT</h5>
                        <LazyLoad height={200} offset={10} >
-                       <img src="https://img.icons8.com/dusk/64/000000/bulldozer.png"></img>
+                       <img src="https://img.icons8.com/dusk/64/000000/bulldozer.png" alt="Heavy frieght transport icon"></img>
                        </LazyLoad>
                        <p>What goes into heavy freight transport? </p>
                        </Col>
@@ -97,14 +97,14 @@ const IndexPage = () => {
                     </Col>
                     <Col>
                     <LazyLoad height={200} offset={10} >
-                    <img className="relaxing" src={require("../images/relaxing-laptop.jpg")} alt="" />
+                    <img className="relaxing" src={require("../images/relaxing-laptop.jpg")} alt="stress free transport" />
                     </LazyLoad>
                     </Col>
                     </div>
                     <div className="businessShipping">
                     <Col>
                     <LazyLoad height={200} offset={10} >
-                    <img className="businessLoad" src={require("../images/business-shipping.jpg")} alt="" />
+                    <img className="businessLoad" src={require("../images/business-shipping.jpg")} alt="business shipping" />
                     </LazyLoad>
                     </Col>
                     <Col className="business">
@@ -124,22 +124,22 @@ const IndexPage = () => {
                   <div className="services">
                       <Col>
                       <h6>Insurance Coverage</h6>
-                      <img src="https://img.icons8.com/dusk/64/000000/vehicle-security.png"></img>
+                      <img src="https://img.icons8.com/dusk/64/000000/vehicle-security.png" alt="Insurance Icon"></img>
                       <p>Car transport companies include insurance coverage in your shipping quote. Our selected auto haulers must meet insurance standards before qualifying to be part of our carrier network.</p>
                       </Col>
                       <Col>
                       <h6 className="doorImg">Door-to-Door Service</h6>
-                      <img src="https://img.icons8.com/dusk/64/000000/treasure-map.png"></img>
+                      <img src="https://img.icons8.com/dusk/64/000000/treasure-map.png" alt="door to door services"></img>
                       <p>Don't worry about having to drive out of your way to meet your driver. The driver will come straight to your pick up location and deliver it exactly where you need your shippment to be.</p>
                       </Col>
                       <Col>
                       <h6 className="noPayImg">No Up Front Payments</h6>
-                      <img src="https://img.icons8.com/officel//000000/no-hidden-fee.png"></img>
+                      <img src="https://img.icons8.com/officel//000000/no-hidden-fee.png" alt="Shipping cost"></img>
                       <p>You read that right, $0! The best auto transport companies charge you once the carrier has been dispatched for your order. You can book with your auto transport company now without seeing a bill.</p>
                       </Col>
                       <Col>
                       <h6 className="csImg">Superior Costumer Service</h6>
-                      <img src="https://img.icons8.com/dusk/64/000000/service.png"></img>
+                      <img src="https://img.icons8.com/dusk/64/000000/service.png" alt="professional transport services - customer service"></img>
                       <p>Our professional auto transport company advisors work passionately to ensure you're working with the best vehicle transportation company. They will monitor your shipment around the clock.</p>
                       </Col>
                       </div>
@@ -162,7 +162,7 @@ const IndexPage = () => {
                       <p>With over 10 years of experience in the hauling industry, we have the capability to take you to the moon. Expect supreme customer service and expert solutions for your shippment. We're here for you 365/24/7.</p>
                       </Col>
                       <Col>
-                      <img src="https://img.icons8.com/dusk/64/000000/treasure-map.png"></img>
+                      <img src="https://img.icons8.com/dusk/64/000000/treasure-map.png" alt="logistics map Icon"></img>
                      
                       </Col>
                   </Container>
